@@ -1,0 +1,43 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "type": "CONSTRUCTION_SITE",
+            "tick": 4,
+            "duration": 10,
+            "factor": 3,
+            "oneWayStreet": "true",
+            "source": 5,
+            "target": 4
+        },
+        {
+            "id": 0,
+            "type": "TRAFFIC_JAM",
+            "tick": 0,
+            "duration": 4,
+            "factor": 2,
+            "source": 1,
+            "target": 8
+        },
+        {
+            "id": 2,
+            "type": "ROAD_CLOSURE",
+            "tick": 4,
+            "duration": 6,
+            "source": 11,
+            "target": 16
+        }
+    ],
+    "emergencyCalls": [
+        {
+            "id": 0,
+            "tick": 2,
+            "village": "Hamburg",
+            "roadName": "Riverside_Street",
+            "emergencyType": "ACCIDENT",
+            "severity": 2,
+            "handleTime": 7,
+            "maxDuration": 10
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "type": "VEHICLE_UNAVAILABLE",
+      "tick": 3,
+      "duration": 5,
+      "vehicleID": 0
+    }
+  ],
+  "emergencyCalls": [
+    {
+      "id": 0,
+      "tick": 1,
+      "village": "Erfurt",
+      "roadName": "Linden_Avenue",
+      "emergencyType": "FIRE",
+      "severity": 2,
+      "handleTime": 5,
+      "maxDuration": 10
+    }
+  ]
+}

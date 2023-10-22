@@ -1,0 +1,43 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "type": "VEHICLE_UNAVAILABLE",
+            "tick": 5,
+            "duration": 10,
+            "vehicleID": 9
+        }
+    ],
+    "emergencyCalls": [
+        {
+            "id": 0,
+            "tick": 1,
+            "village": "Bielefeld",
+            "roadName": "Church_Lane",
+            "emergencyType": "FIRE",
+            "severity": 1,
+            "handleTime": 3,
+            "maxDuration": 9
+        },
+        {
+            "id": 1,
+            "tick": 4,
+            "village": "Bielefeld",
+            "roadName": "Maple_Way",
+            "emergencyType": "FIRE",
+            "severity": 2,
+            "handleTime": 5,
+            "maxDuration": 10
+        },
+        {
+            "id": 2,
+            "tick": 6,
+            "village": "Bielefeld",
+            "roadName": "Church_Lane",
+            "emergencyType": "CRIME",
+            "severity": 1,
+            "handleTime": 3,
+            "maxDuration": 10
+        }
+    ]
+}

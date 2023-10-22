@@ -1,0 +1,19 @@
+digraph sameDistanceTown {
+   0;
+   1;
+   2;
+   3;
+   4;
+   5;
+   6;
+   7;
+   8;
+   0 -> 1 [village=exampleVillage, name=roadOA; heightLimit =2; weight = 10; primaryType = sideStreet; secondaryType=tunnel;];
+   1 -> 2 [village=exampleVillage, name=roadAB; heightLimit =10; weight = 10; primaryType = sideStreet; secondaryType=none;];
+   2 -> 3 [village=exampleVillage, name = roadBC; heightLimit= 10; weight = 50; primaryType = mainStreet; secondaryType =none;];
+   3 -> 4 [village=exampleVillage, name= roadCD; heightLimit = 10; weight = 70; primaryType = mainStreet; secondaryType= none;];
+   3 -> 5 [village=exampleVillage, name=roadCE; heightLimit =2; weight = 5; primaryType = sideStreet; secondaryType=tunnel;];
+   5 -> 6 [village=exampleVillage, name=roadEF; heightLimit =10; weight = 65; primaryType = sideStreet; secondaryType=none;];
+   2 -> 7 [village=exampleVillage, name = roadBG; heightLimit= 10; weight = 5; primaryType = mainStreet; secondaryType =none;];
+   7 -> 8 [village=exampleVillage, name= roadFG; heightLimit = 10; weight = 15; primaryType = mainStreet; secondaryType= none;];
+}

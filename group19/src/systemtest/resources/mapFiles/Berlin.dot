@@ -1,0 +1,47 @@
+digraph G {
+	17;
+	18;
+	19;
+	20;
+	21;
+	22;
+	23;
+	24;
+	25;
+	28;
+	29;
+	30;
+	31;
+	32;
+	33;
+	34;
+
+	17 -> 18 [village=Berlin; name=Rose_Way; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=none;];
+	18 -> 19 [village=Berlin; name=Post_Office_Street; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=none;];
+	19 -> 20 [village=Berlin; name=Flower_Path; heightLimit=10; weight=4; primaryType=mainStreet; secondaryType=none;];
+	20 -> 21 [village=Berlin; name=Castle_Avenue; heightLimit=10; weight=4; primaryType=mainStreet; secondaryType=none;];
+	21 -> 22 [village=Berlin; name=Corner_Alley; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=none;];
+	22 -> 23 [village=Berlin; name=Main_Street; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=none;];
+	23 -> 24 [village=Berlin; name=Spruce_Street; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=none;];
+	24 -> 25 [village=Berlin; name=Oak_Street; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=none;];
+	25 -> 33 [village=Berlin; name=Oak_Way; heightLimit=10; weight=8; primaryType=mainStreet; secondaryType=none;];
+	33 -> 34 [village=Berlin; name=Linden_Avenue; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=oneWayStreet;];
+	34 -> 28 [village=Berlin; name=Friedrich_Street; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=none;];
+	28 -> 17 [village=Berlin; name=Beech_Way; heightLimit=10; weight=4; primaryType=mainStreet; secondaryType=none;];
+
+	17 -> 29 [village=Berlin; name=Meadow_Way; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=none;];
+	18 -> 29 [village=Berlin; name=Bridge_Street; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=none;];
+	29 -> 19 [village=Berlin; name=Cemetery_Lane; heightLimit=10; weight=6; primaryType=sideStreet; secondaryType=oneWayStreet;];
+	29 -> 30 [village=Berlin; name=Bridge; heightLimit=10; weight=6; primaryType=sideStreet; secondaryType=none;];
+	20 -> 30 [village=Berlin; name=Beech; heightLimit=10; weight=6; primaryType=sideStreet; secondaryType=oneWayStreet;];
+	30 -> 31 [village=Berlin; name=Mill_Lane; heightLimit=10; weight=6; primaryType=sideStreet; secondaryType=none;];
+	21 -> 31 [village=Berlin; name=Corner; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=none;];
+	23 -> 31 [village=Berlin; name=Schiller_Square; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=oneWayStreet;];
+	31 -> 32 [village=Berlin; name=Riverside_Street; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=none;];
+	32 -> 24 [village=Berlin; name=Oak; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=none;];
+	32 -> 33 [village=Berlin; name=Mountain_Street; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=none;];
+	34 -> 32 [village=Berlin; name=Riverside; heightLimit=10; weight=6; primaryType=sideStreet; secondaryType=oneWayStreet;];
+	34 -> 30 [village=Berlin; name=Oak_new; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=none;];
+	34 -> 29 [village=Berlin; name=Mountain; heightLimit=3; weight=8; primaryType=sideStreet; secondaryType=tunnel;];
+
+}

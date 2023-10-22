@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "id": 69420,
+      "type": "VEHICLE_UNAVAILABLE",
+      "tick": 3,
+      "duration": 1,
+      "vehicleID":56461
+    }
+  ],
+  "emergencyCalls": [
+    {
+      "id": 45001,
+      "tick": 1,
+      "village": "VillageA",
+      "roadName": "Lit_Road",
+      "emergencyType": "FIRE",
+      "severity": 1,
+      "handleTime": 2,
+      "maxDuration": 10
+    },
+    {
+      "id": 45002,
+      "tick": 20,
+      "village": "VillageA",
+      "roadName": "Lit_Road",
+      "emergencyType": "FIRE",
+      "severity": 1,
+      "handleTime": 2,
+      "maxDuration": 10
+    }
+  ]
+}

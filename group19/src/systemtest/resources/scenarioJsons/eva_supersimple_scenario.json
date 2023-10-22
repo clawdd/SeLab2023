@@ -1,0 +1,25 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "type": "TRAFFIC_JAM",
+            "tick": 0,
+            "duration": 1,
+            "factor": 1,
+            "source": 0,
+            "target": 1
+        }
+    ],
+    "emergencyCalls": [
+        {
+            "id": 0,
+            "tick": 1,
+            "village": "Oberhausen",
+            "roadName": "On_the_Slope",
+            "emergencyType": "MEDICAL",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 4
+        }
+    ]
+}

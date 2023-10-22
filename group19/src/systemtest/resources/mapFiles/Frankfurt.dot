@@ -1,0 +1,18 @@
+digraph G {
+    1;
+    2;
+    3;
+    4;
+    5;
+    6;
+    7;
+    1 -> 2 [village=Frankfurt_am_Main; name=Schiller_Square; heightLimit=10; weight=8; primaryType=sideStreet; secondaryType=none;];
+    1 -> 4 [village=Frankfurt_am_Main; name=Cemetery_Lane; heightLimit=10; weight=10; primaryType=mainStreet; secondaryType=none;];
+    2 -> 3 [village=Frankfurt_am_Main; name=Sun_Street; heightLimit=10; weight=7; primaryType=sideStreet; secondaryType=oneWayStreet;];
+    2 -> 6 [village=Frankfurt_am_Main; name=Corner_Alley; heightLimit=10; weight=10; primaryType=sideStreet; secondaryType=none;];
+    3 -> 4 [village=Frankfurt_am_Main; name=Post_Road; heightLimit=10; weight=50; primaryType=sideStreet; secondaryType=none;];
+    3 -> 7 [village=Frankfurt_am_Main; name=School_Lane; heightLimit=10; weight=5; primaryType=sideStreet; secondaryType=none;];
+    3 -> 6 [village=Frankfurt_am_Main; name=Vineyard_Street; heightLimit=10; weight=5; primaryType=sideStreet; secondaryType=none;];
+    4 -> 5 [village=Frankfurt_am_Main; name=By_the_Stream; heightLimit=10; weight=6; primaryType=sideStreet; secondaryType=none;];
+    5 -> 6 [village=Frankfurt_am_Main; name=Valley_Path; heightLimit=10; weight=6; primaryType=sideStreet; secondaryType=none;];
+}

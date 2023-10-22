@@ -1,0 +1,21 @@
+digraph exampleTown {
+
+   0;
+   1;
+   2;
+   6;
+   7;
+   5;
+   3;
+   4;
+
+   0 -> 3 [village=exampleVillage, name=roadOC; heightLimit =2; weight = 10; primaryType = sideStreet; secondaryType=tunnel;];
+   4 -> 7 [village=exampleVillage, name=roadDG; heightLimit =10; weight = 10; primaryType = sideStreet; secondaryType=none;];
+   0 -> 1 [village=exampleVillage, name = roadOA; heightLimit= 10; weight = 10; primaryType = mainStreet; secondaryType =none;];
+   1 -> 4 [village=exampleVillage, name= roadAD; heightLimit = 10; weight = 10; primaryType = mainStreet; secondaryType= none;];
+   2 -> 5 [village=exampleVillage, name= roadBE; heightLimit = 10; weight = 10; primaryType = sideStreet; secondaryType= none;];
+   3 -> 6 [village=exampleVillage, name= roadCF; heightLimit = 10; weight = 10; primaryType = mainStreet; secondaryType= none;];
+   0 -> 2 [village=exampleVillage, name=roadOB; heightLimit =2; weight = 10; primaryType = sideStreet; secondaryType=tunnel;];
+   5 -> 7 [village=exampleVillage, name=roadEG; heightLimit =2; weight = 10; primaryType = sideStreet; secondaryType=tunnel;];
+   6 -> 7 [village=exampleVillage, name=roadFG; heightLimit =2; weight = 10; primaryType = sideStreet; secondaryType=tunnel;];
+}

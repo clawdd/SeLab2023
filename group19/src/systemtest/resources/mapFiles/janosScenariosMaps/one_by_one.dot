@@ -1,0 +1,22 @@
+digraph G {
+	0;
+	1;
+	2;
+	3;
+	4;
+	5;
+	6;
+	7;
+
+	0 -> 1 [village=village; name=Rose_Street; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+	1 -> 2 [village=village; name=Birch_Street; heightLimit=3; weight=30; primaryType=mainStreet; secondaryType=none;];
+	2 -> 3 [village=village; name=Town_Hall_Square; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+	3 -> 4 [village=village; name=Birch_Way; heightLimit=3; weight=30; primaryType=mainStreet; secondaryType=none;];
+	3 -> 5 [village=village; name=Meadow_Way; heightLimit=3; weight=20; primaryType=sideStreet; secondaryType=none;];
+	3 -> 6 [village=village; name=Linden_Avenue; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	4 -> 5 [village=village; name=Railway_Station_Road; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+	5 -> 6 [village=village; name=Fir_Way; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	6 -> 7 [village=village; name=School_Lane; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	7 -> 0 [village=village; name=Schubert_Avenue; heightLimit=3; weight=150; primaryType=mainStreet; secondaryType=none;];
+
+}

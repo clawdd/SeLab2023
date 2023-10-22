@@ -1,0 +1,20 @@
+digraph G {
+	0;
+	1;
+	2;
+	3;
+	4;
+	5;
+	6;
+	7;
+
+	0 -> 1 [village=Erfurt; name=Vineyard_Street; heightLimit=3; weight=30; primaryType=mainStreet; secondaryType=none;];
+	1 -> 2 [village=Erfurt; name=Castle_Avenue; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	2 -> 3 [village=Erfurt; name=Railway_Station_Road; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	3 -> 4 [village=Erfurt; name=Linden_Street; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	4 -> 5 [village=Erfurt; name=Schubert_Avenue; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	5 -> 6 [village=Erfurt; name=Garden_Way; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	6 -> 7 [village=Erfurt; name=Friedrich_Street; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	7 -> 0 [village=Erfurt; name=Linden_Avenue; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+
+}

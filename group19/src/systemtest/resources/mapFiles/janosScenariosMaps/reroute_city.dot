@@ -1,0 +1,17 @@
+digraph reroute_Ville {
+	0;
+	1;
+	2;
+	3;
+	4;
+	5;
+	6;
+
+	0 -> 1 [village=rerouteCity; name=On_the_Slope; heightLimit=5; weight=20; primaryType=mainStreet; secondaryType=none;];
+	0 -> 3 [village=rerouteCity; name=Town_Hall_Square; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	0 -> 5 [village=rerouteCity; name=Birch_Way; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	0 -> 6 [village=rerouteCity; name=School_Lane; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	1 -> 2 [village=rerouteCity; name=Post_Office_Street; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+	3 -> 4 [village=rerouteCity; name=Grocery_Store_Street; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+
+}

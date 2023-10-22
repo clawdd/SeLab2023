@@ -1,0 +1,9 @@
+digraph Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch {
+   1;
+   2;
+   3;
+   1 -> 2 [village=Llanfairpwllgwyngyll, name=soosroad; heightLimit =5; weight = 69; primaryType = sideStreet; secondaryType=none;];
+   2 -> 3 [village=Llanfairpwllgwyngyll, name = seesroad; heightLimit= 5; weight = 1337; primaryType = sideStreet; secondaryType =none;];
+   3 -> 1 [village=Llanfairpwllgwyngyll, name= saasroad; heightLimit = 5; weight = 420; primaryType = countyRoad; secondaryType= none;];
+
+}

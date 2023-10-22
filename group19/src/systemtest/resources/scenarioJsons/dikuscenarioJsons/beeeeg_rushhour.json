@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "type": "RUSH_HOUR",
+            "tick": 2,
+            "duration": 3,
+            "roadTypes": [
+                "MAIN_STREET",
+                "SIDE_STREET"
+            ],
+            "factor": 2
+        },
+        {
+            "id": 2,
+            "type": "RUSH_HOUR",
+            "tick": 4,
+            "duration": 2,
+            "factor": 50,
+            "roadTypes": [
+                "MAIN_STREET",
+                "SIDE_STREET"
+            ]
+        }
+    ],
+    "emergencyCalls": [
+        {
+            "id": 0,
+            "tick": 4,
+            "village": "Munich",
+            "roadName": "Harbor_Street",
+            "emergencyType": "MEDICAL",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 7
+        }
+    ]
+}

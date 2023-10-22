@@ -1,0 +1,35 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "type": "TRAFFIC_JAM",
+            "tick": 0,
+            "duration": 1,
+            "factor": 2,
+            "source": 0,
+            "target": 1
+        }
+    ],
+    "emergencyCalls": [
+        {
+            "id": 0,
+            "tick": 1,
+            "village": "Stuttgart",
+            "roadName": "On_the_Slope",
+            "emergencyType": "CRIME",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 5
+        },
+        {
+            "id": 0,
+            "tick": 2,
+            "village": "Stuttgart",
+            "roadName": "Post_Road",
+            "emergencyType": "FIRE",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 5
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "type": "TRAFFIC_JAM",
+      "tick": 10,
+      "duration": 1,
+      "factor": 1,
+      "source": 2,
+      "target": 0
+    }
+  ],
+  "emergencyCalls": [
+    {
+      "id": 45431,
+      "tick": 1,
+      "village": "triangle",
+      "roadName": "triangle_AB",
+      "emergencyType": "CRIME",
+      "severity": 1,
+      "handleTime": 1,
+      "maxDuration": 4
+    }
+  ]
+}

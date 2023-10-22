@@ -1,0 +1,102 @@
+{
+    "bases": [
+        {
+            "id": 0,
+            "baseType": "FIRE_STATION",
+            "location": 2,
+            "staff": 18
+        },
+        {
+            "id": 1,
+            "baseType": "FIRE_STATION",
+            "location": 3,
+            "staff": 30
+        },
+        {
+            "id": 2,
+            "baseType": "HOSPITAL",
+            "location": 0,
+            "staff": 30,
+            "doctors": 1
+        },
+        {
+            "id": 3,
+            "baseType": "POLICE_STATION",
+            "location": 1,
+            "staff": 30,
+            "dogs": 1
+        }
+    ],
+    "vehicles": [
+        {
+            "id": 0,
+            "baseID": 0,
+            "vehicleType": "FIRE_TRUCK_WATER",
+            "vehicleHeight": 1,
+            "staffCapacity": 12,
+            "waterCapacity": 2400
+        },
+        {
+            "id": 1,
+            "baseID": 0,
+            "vehicleType": "FIRE_TRUCK_WATER",
+            "vehicleHeight": 1,
+            "staffCapacity": 6,
+            "waterCapacity": 600
+        },
+        {
+            "id": 2,
+            "baseID": 0,
+            "vehicleType": "FIRE_TRUCK_WATER",
+            "vehicleHeight": 1,
+            "staffCapacity": 6,
+            "waterCapacity": 600
+        },
+        {
+            "id": 3,
+            "baseID": 0,
+            "vehicleType": "FIRE_TRUCK_WATER",
+            "vehicleHeight": 1,
+            "staffCapacity": 6,
+            "waterCapacity": 600
+        },
+        {
+            "id": 4,
+            "baseID": 1,
+            "vehicleType": "FIRE_TRUCK_WATER",
+            "vehicleHeight": 1,
+            "staffCapacity": 6,
+            "waterCapacity": 1200
+        },
+        {
+            "id": 5,
+            "baseID": 1,
+            "vehicleType": "FIRE_TRUCK_LADDER",
+            "vehicleHeight": 1,
+            "staffCapacity": 6,
+            "ladderLength": 30
+        },
+        {
+            "id": 6,
+            "baseID": 1,
+            "vehicleType": "FIREFIGHTER_TRANSPORTER",
+            "vehicleHeight": 1,
+            "staffCapacity": 6
+        },
+        {
+            "id": 7,
+            "baseID": 2,
+            "vehicleType": "AMBULANCE",
+            "vehicleHeight": 1,
+            "staffCapacity": 6,
+            "dogs": 4
+        },
+        {
+            "id": 8,
+            "baseID": 3,
+            "vehicleType": "POLICE_MOTORCYCLE",
+            "vehicleHeight": 2,
+            "staffCapacity": 1
+        }
+    ]
+}

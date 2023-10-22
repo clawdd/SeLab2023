@@ -1,0 +1,44 @@
+digraph G {
+	1;
+	2;
+	3;
+	4;
+	5;
+	6;
+	7;
+	8;
+	9;
+	10;
+	11;
+	12;
+	13;
+	14;
+	15;
+	16;
+
+	1 -> 8 [village=Hamburg; name=Vineyard_Street; heightLimit=10; weight=5; primaryType=mainStreet; secondaryType=none;];
+	2 -> 9 [village=Hamburg; name=Market_Street; heightLimit=10; weight=2; primaryType=mainStreet; secondaryType=none;];
+	3 -> 16 [village=Hamburg; name=new_road; heightLimit=10; weight=4; primaryType=mainStreet; secondaryType=none;];
+	4 -> 5 [village=Hamburg; name=Harbor_Street; heightLimit=10; weight=7; primaryType=mainStreet; secondaryType=none;];
+	5 -> 6 [village=Hamburg; name=Chestnut; heightLimit=10; weight=10; primaryType=mainStreet; secondaryType=none;];
+	6 -> 1 [village=Hamburg; name=berlin_street; heightLimit=10; weight=6; primaryType=mainStreet; secondaryType=none;];
+	7 -> 6 [village=Hamburg; name=Linden_Street; heightLimit=10; weight=4; primaryType=sideStreet; secondaryType=none;];
+	7 -> 13 [village=Hamburg; name=Schiller; heightLimit=10; weight=4; primaryType=sideStreet; secondaryType=none;];
+	7 -> 14 [village=Hamburg; name=Spruce_Street; heightLimit=10; weight=3; primaryType=sideStreet; secondaryType=none;];
+	8 -> 2 [village=Hamburg; name=Riverside_Alleyway; heightLimit=10; weight=8; primaryType=mainStreet; secondaryType=none;];
+	8 -> 7 [village=Hamburg; name=Alder_Way; heightLimit=10; weight=3; primaryType=sideStreet; secondaryType=none;];
+	9 -> 10 [village=Hamburg; name=Chestnut_Avenue; heightLimit=10; weight=10; primaryType=mainStreet; secondaryType=none;];
+	10 -> 3 [village=Hamburg; name=Schiller_Square; heightLimit=10; weight=4; primaryType=mainStreet; secondaryType=none;];
+	11 -> 4 [village=Hamburg; name=Field_Lane; heightLimit=10; weight=6; primaryType=sideStreet; secondaryType=none;];
+	11 -> 16 [village=Hamburg; name=Church; heightLimit=10; weight=4; primaryType=sideStreet; secondaryType=none;];
+	11 -> 10 [village=Hamburg; name=Oak_Street; heightLimit=10; weight=4; primaryType=sideStreet; secondaryType=none;];
+	12 -> 14 [village=Hamburg; name=Riverside_Street; heightLimit=10; weight=4; primaryType=sideStreet; secondaryType=oneWayStreet;];
+	12 -> 11 [village=Hamburg; name=Sun_Street; heightLimit=10; weight=3; primaryType=sideStreet; secondaryType=none;];
+	13 -> 9 [village=Hamburg; name=Riverside; heightLimit=10; weight=2; primaryType=sideStreet; secondaryType=none;];
+	13 -> 12 [village=Hamburg; name=Birch_Way; heightLimit=10; weight=3; primaryType=sideStreet; secondaryType=none;];
+	14 -> 15 [village=Hamburg; name=Maple_Street; heightLimit=10; weight=1; primaryType=sideStreet; secondaryType=none;];
+	15 -> 5 [village=Hamburg; name=Corner_Alley; heightLimit=10; weight=1; primaryType=sideStreet; secondaryType=none;];
+	15 -> 11 [village=Hamburg; name=market; heightLimit=10; weight=3; primaryType=sideStreet; secondaryType=none;];
+	16 -> 4 [village=Hamburg; name=Church_Lane; heightLimit=10; weight=5; primaryType=mainStreet; secondaryType=none;];
+
+}

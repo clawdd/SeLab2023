@@ -1,0 +1,51 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "type": "TRAFFIC_JAM",
+            "tick": 1,
+            "duration": 2,
+            "factor": 2,
+            "source": 2,
+            "target": 3
+        },
+        {
+            "id": 1,
+            "type": "RUSH_HOUR",
+            "tick": 2,
+            "duration": 5,
+            "roadTypes": [
+                "SIDE_STREET"
+            ],
+            "factor": 10
+        },
+        {
+            "id": 2,
+            "type": "TRAFFIC_JAM",
+            "tick": 2,
+            "duration": 3,
+            "factor": 3,
+            "source": 4,
+            "target": 5
+        },
+        {
+            "id": 3,
+            "type": "VEHICLE_UNAVAILABLE",
+            "tick": 5,
+            "duration": 1,
+            "vehicleID": 6
+        }
+    ],
+    "emergencyCalls": [
+        {
+            "id": 0,
+            "tick": 20,
+            "village": "Berlin",
+            "roadName": "Beech_Way",
+            "emergencyType": "FIRE",
+            "severity": 3,
+            "handleTime": 10,
+            "maxDuration": 11
+        }
+    ]
+}

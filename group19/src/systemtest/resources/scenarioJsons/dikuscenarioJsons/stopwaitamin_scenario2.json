@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "type": "ROAD_CLOSURE",
+            "tick": 0,
+            "duration": 5,
+            "source": 5,
+            "target": 6
+        }
+    ],
+    "emergencyCalls": [
+        {
+            "id": 0,
+            "tick": 1,
+            "village": "Munich",
+            "roadName": "Harbor_Street",
+            "emergencyType": "MEDICAL",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 3
+        },
+        {
+            "id": 1,
+            "tick": 100,
+            "village": "Munich",
+            "roadName": "Harbor_Street",
+            "emergencyType": "MEDICAL",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 3
+        }
+    ]
+}

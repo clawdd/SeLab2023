@@ -1,0 +1,90 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "type": "TRAFFIC_JAM",
+            "tick": 10,
+            "duration": 1,
+            "factor": 1,
+            "source": 0,
+            "target": 1
+        },
+        {
+            "id": 2,
+            "type": "CONSTRUCTION_SITE",
+            "tick": 10,
+            "duration": 1,
+            "factor": 1,
+            "oneWayStreet": false,
+            "source": 0,
+            "target": 2
+        },
+        {
+            "id": 3,
+            "type": "ROAD_CLOSURE",
+            "tick": 10,
+            "duration": 1,
+            "source": 0,
+            "target": 3
+        },
+        {
+            "id": 4,
+            "type": "VEHICLE_UNAVAILABLE",
+            "tick": 10,
+            "duration": 1,
+            "vehicleID": 0
+        },
+        {
+            "id": 5,
+            "type": "RUSH_HOUR",
+            "tick": 10,
+            "duration": 1,
+            "factor": 1,
+            "roadTypes": [
+                "MAIN_STREET"
+            ]
+        }
+    ],
+    "emergencyCalls": [
+        {
+            "id": 0,
+            "tick": 1,
+            "village": "Triangle",
+            "roadName": "toA",
+            "emergencyType": "FIRE",
+            "severity": 3,
+            "handleTime": 1,
+            "maxDuration": 5
+        },
+        {
+            "id": 1,
+            "tick": 10,
+            "village": "Triangle",
+            "roadName": "toB",
+            "emergencyType": "ACCIDENT",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 5
+        },
+        {
+            "id": 2,
+            "tick": 10,
+            "village": "Triangle",
+            "roadName": "toC",
+            "emergencyType": "CRIME",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 5
+        },
+        {
+            "id": 3,
+            "tick": 10,
+            "village": "Triangle",
+            "roadName": "toA",
+            "emergencyType": "MEDICAL",
+            "severity": 1,
+            "handleTime": 1,
+            "maxDuration": 5
+        }
+    ]
+}

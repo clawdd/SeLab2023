@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "type": "TRAFFIC_JAM",
+      "tick": 2,
+      "duration": 3,
+      "factor": 5,
+      "source": 4,
+      "target": 5
+    },
+    {
+      "id": 1,
+      "type": "TRAFFIC_JAM",
+      "tick": 7,
+      "duration": 3,
+      "factor": 5,
+      "source": 4,
+      "target": 5
+    }
+
+  ],
+  "emergencyCalls": [
+    {
+      "id": 0,
+      "tick": 1,
+      "village": "VillageA",
+      "roadName": "EM_road",
+      "emergencyType": "MEDICAL",
+      "severity": 2,
+      "handleTime": 2,
+      "maxDuration": 10
+    }
+  ]
+}
+

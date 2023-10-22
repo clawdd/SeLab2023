@@ -1,0 +1,13 @@
+digraph returnBlockedByOneWayTown {
+   0;
+   1;
+   2;
+   3;
+   4;
+   0 -> 1 [village=exampleVillage, name=roadOA; heightLimit = 3; weight = 30; primaryType = sideStreet; secondaryType=tunnel;];
+   1 -> 2 [village=exampleVillage, name=roadAB; heightLimit =10; weight = 40; primaryType = sideStreet; secondaryType=oneWayStreet;];
+   2 -> 3 [village=exampleVillage, name = roadBC; heightLimit= 10; weight = 60; primaryType = mainStreet; secondaryType =none;];
+   3 -> 4 [village=exampleVillage, name= roadCD; heightLimit = 10; weight = 40; primaryType = mainStreet; secondaryType= none;];
+   4 -> 0 [village=exampleVillage, name= roadDO; heightLimit = 10; weight = 50; primaryType = mainStreet; secondaryType= none;];
+   4 -> 1 [village=exampleVillage, name= roadDB; heightLimit = 10; weight = 80; primaryType = mainStreet; secondaryType= none;];
+}

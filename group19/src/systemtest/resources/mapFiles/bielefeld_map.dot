@@ -1,0 +1,27 @@
+digraph G {
+	0;
+	1;
+	2;
+	3;
+	4;
+	5;
+	6;
+	7;
+	8;
+	9;
+
+	0 -> 1 [village=Bielefeld; name=Church_Lane; heightLimit=2; weight=10; primaryType=mainStreet; secondaryType=tunnel;];
+	1 -> 2 [village=Bielefeld; name=Post_Road; heightLimit=3; weight=30; primaryType=mainStreet; secondaryType=none;];
+	2 -> 3 [village=Bielefeld; name=Meadow_Way; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+	2 -> 6 [village=Bielefeld; name=Maple_Way; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	3 -> 4 [village=Bielefeld; name=Mountain_Street; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	4 -> 5 [village=Bielefeld; name=Mill_Lane; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	5 -> 0 [village=Bielefeld; name=Field_Lane; heightLimit=3; weight=30; primaryType=mainStreet; secondaryType=none;];
+	6 -> 3 [village=Bielefeld; name=Vineyard_Street; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=oneWayStreet;];
+
+	7 -> 9 [village=Wuppertal; name=By_the_Pond; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	8 -> 7 [village=Wuppertal; name=Birch_Way; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	9 -> 8 [village=Wuppertal; name=Oak_Street; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+
+	6 -> 8 [village=G; name=Rose_Way; heightLimit=3; weight=30; primaryType=countyRoad; secondaryType=none;];
+}

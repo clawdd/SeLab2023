@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "type": "TRAFFIC_JAM",
+      "tick": 10,
+      "duration": 1,
+      "factor": 1,
+      "source": 0,
+      "target": 1
+    }
+  ],
+  "emergencyCalls": [
+    {
+      "id": 45481,
+      "tick": 1,
+      "village": "square",
+      "roadName": "squareAB",
+      "emergencyType": "MEDICAL",
+      "severity": 1,
+      "handleTime": 5,
+      "maxDuration": 10
+    },
+    {
+      "id": 45482,
+      "tick": 3,
+      "village": "square",
+      "roadName": "squareDA",
+      "emergencyType": "MEDICAL",
+      "severity": 2,
+      "handleTime": 3,
+      "maxDuration": 8
+    }
+  ]
+}

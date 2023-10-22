@@ -1,0 +1,12 @@
+digraph G {
+	0;
+	1;
+	2;
+	3;
+
+	0 -> 1 [village=NothingImportant; name=Birch_Way; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	1 -> 2 [village=NothingImportant; name=Sun_Street; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	2 -> 3 [village=NothingImportant; name=Old_Village_Street; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	3 -> 0 [village=NothingImportant; name=Valley_Path; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+
+}

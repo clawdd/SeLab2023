@@ -1,0 +1,25 @@
+digraph G {
+	0;
+	1;
+	2;
+	3;
+	4;
+	5;
+	6;
+	7;
+	8;
+
+	0 -> 1 [village=Cologne; name=Maple_Street; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	1 -> 2 [village=Cologne; name=Alder_Way; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	2 -> 0 [village=Cologne; name=Bridge_Street; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	2 -> 3 [village=Cologne; name=Sun_Street; heightLimit=3; weight=30; primaryType=sideStreet; secondaryType=none;];
+	2 -> 4 [village=Cologne; name=Field_Lane; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+	3 -> 4 [village=Cologne; name=Village_Square; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+	3 -> 5 [village=Cologne; name=Cemetery_Lane; heightLimit=3; weight=30; primaryType=mainStreet; secondaryType=none;];
+	5 -> 6 [village=Cologne; name=Ash_Way; heightLimit=3; weight=30; primaryType=sideStreet; secondaryType=none;];
+	5 -> 7 [village=Cologne; name=Birch_Street; heightLimit=3; weight=10; primaryType=mainStreet; secondaryType=none;];
+	6 -> 8 [village=Cologne; name=Meadow_Way; heightLimit=3; weight=30; primaryType=mainStreet; secondaryType=none;];
+	6 -> 7 [village=Cologne; name=Schubert_Avenue; heightLimit=3; weight=10; primaryType=sideStreet; secondaryType=none;];
+	7 -> 8 [village=Cologne; name=Valley_Road; heightLimit=3; weight=20; primaryType=mainStreet; secondaryType=none;];
+
+}

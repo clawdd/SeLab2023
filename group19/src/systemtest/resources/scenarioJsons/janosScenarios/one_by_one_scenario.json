@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "type": "ROAD_CLOSURE",
+      "tick": 2,
+      "duration": 25,
+      "source": 3,
+      "target": 6
+    },
+    {
+      "id": 1,
+      "type": "ROAD_CLOSURE",
+      "tick": 3,
+      "duration": 25,
+      "source": 3,
+      "target": 5
+    },
+    {
+      "id": 2,
+      "type": "ROAD_CLOSURE",
+      "tick": 4,
+      "duration": 25,
+      "source": 3,
+      "target": 4
+    }
+  ],
+  "emergencyCalls": [
+    {
+      "id": 45461,
+      "tick": 1,
+      "village": "village",
+      "roadName": "School_Lane",
+      "emergencyType": "FIRE",
+      "severity": 1,
+      "handleTime": 5,
+      "maxDuration": 40
+    }
+  ]
+}

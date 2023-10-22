@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "type": "CONSTRUCTION_SITE",
+      "tick": 4,
+      "duration": 1,
+      "factor": 3,
+      "oneWayStreet": true,
+      "source": 1,
+      "target": 2
+    }
+  ],
+  "emergencyCalls": [
+    {
+      "id": 1,
+      "tick": 2,
+      "village": "Frankfurt_am_Main",
+      "roadName": "School_Lane",
+      "emergencyType": "FIRE",
+      "severity": 1,
+      "handleTime": 4,
+      "maxDuration": 5
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "type": "RUSH_HOUR",
+      "tick": 3,
+      "duration": 2,
+      "roadTypes": ["SIDE_STREET"],
+      "factor": 2
+    }
+  ],
+  "emergencyCalls": [
+    {
+      "id": 0,
+      "tick": 2,
+      "village": "Saarbruecken",
+      "roadName": "Eisenbahnstrasse",
+      "emergencyType": "FIRE",
+      "severity": 1,
+      "handleTime": 3,
+      "maxDuration": 13
+    }
+  ]
+}

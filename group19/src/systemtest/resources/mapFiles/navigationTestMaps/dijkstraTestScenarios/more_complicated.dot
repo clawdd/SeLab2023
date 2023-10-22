@@ -1,0 +1,48 @@
+digraph exampleTown {
+   0;
+   1;
+   2;
+   3;
+   4;
+   5;
+   6;
+   7;
+   8;
+   9;
+   10;
+   11;
+   12;
+   13;
+   14;
+   15;
+   16;
+   0 -> 13 [village=exampleTown, name=roadOM; heightLimit =10; weight = 70; primaryType = countyRoad; secondaryType=none;];
+   4 -> 11 [village=exampleTown, name=roadDK; heightLimit =10; weight = 30; primaryType = countyRoad; secondaryType=none;];
+   9 -> 14 [village=exampleTown, name=roadIN; heightLimit =3; weight = 60; primaryType = countyRoad; secondaryType=tunnel;];
+
+   0 -> 1 [village=villageA, name=roadOA; heightLimit =10; weight = 5; primaryType = mainStreet; secondaryType=none;];
+   0 -> 5 [village=villageA, name=roadOE; heightLimit =10; weight = 30; primaryType = sideStreet; secondaryType=none;];
+   1 -> 2 [village=villageA, name=roadAB; heightLimit =10; weight = 10; primaryType = mainStreet; secondaryType=none;];
+   2 -> 3 [village=villageA, name=roadBC; heightLimit =10; weight = 10; primaryType = mainStreet; secondaryType=none;];
+   2 -> 6 [village=villageA, name=roadBF; heightLimit =10; weight = 25; primaryType = sideStreet; secondaryType=none;];
+   3 -> 4 [village=villageA, name=roadCD; heightLimit =10; weight = 5; primaryType = mainStreet; secondaryType=none;];
+   3 -> 8 [village=villageA, name=roadCH; heightLimit =10; weight = 30; primaryType = sideStreet; secondaryType=none;];
+   4 -> 7 [village=villageA, name=roadDG; heightLimit =10; weight = 25; primaryType = sideStreet; secondaryType=none;];
+   5 -> 6 [village=villageA, name=roadEF; heightLimit =10; weight = 5; primaryType = sideStreet; secondaryType=none;];
+   6 -> 8 [village=villageA, name=roadFH; heightLimit =10; weight = 10; primaryType = sideStreet; secondaryType=none;];
+   7 -> 8 [village=villageA, name=roadGH; heightLimit =10; weight = 25; primaryType = sideStreet; secondaryType=none;];
+
+   9 -> 10 [village=villageB, name=roadIJ; heightLimit =10; weight = 10; primaryType = mainStreet; secondaryType=none;];
+   9 -> 12 [village=villageB, name=roadIL; heightLimit =10; weight = 20; primaryType = sideStreet; secondaryType=none;];
+   10 -> 11 [village=villageB, name=roadJK; heightLimit =10; weight = 10; primaryType = mainStreet; secondaryType=none;];
+   11 -> 12 [village=villageB, name=roadKL; heightLimit =10; weight = 20; primaryType = sideStreet; secondaryType=none;];
+
+   13 -> 14 [village=villageC, name=roadMN; heightLimit =10; weight = 80; primaryType = mainStreet; secondaryType=none;];
+   13 -> 15 [village=villageC, name=roadMOh; heightLimit =10; weight = 5; primaryType = mainStreet; secondaryType=none;];
+   14 -> 16 [village=villageC, name=roadNP; heightLimit =10; weight = 20; primaryType = sideStreet; secondaryType=none;];
+   14 -> 15 [village=villageC, name=roadNOh; heightLimit =10; weight = 15; primaryType = sideStreet; secondaryType=none;];
+   15 -> 16 [village=villageC, name=roadOhP; heightLimit =10; weight = 10; primaryType = sideStreet; secondaryType=none;];
+
+
+
+}
